@@ -1,0 +1,31 @@
+[10-Sep-2021 16:32:34 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/xorbite/soliloquybys.com/connection.php on line 10
+[10-Sep-2021 16:35:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/xorbite/soliloquybys.com/banglatest.php:5
+Stack trace:
+#0 /home/xorbite/soliloquybys.com/banglatest.php(5): mysqli->__construct('localhost', 'root', '', 'soliloquy')
+#1 {main}
+  thrown in /home/xorbite/soliloquybys.com/banglatest.php on line 5
+[10-Sep-2021 16:35:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/xorbite/soliloquybys.com/banglatest.php:5
+Stack trace:
+#0 /home/xorbite/soliloquybys.com/banglatest.php(5): mysqli->__construct('localhost', 'root', '', 'soliloquy')
+#1 {main}
+  thrown in /home/xorbite/soliloquybys.com/banglatest.php on line 5
+[10-Sep-2021 16:35:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/xorbite/soliloquybys.com/banglatest.php:5
+Stack trace:
+#0 /home/xorbite/soliloquybys.com/banglatest.php(5): mysqli->__construct('localhost', 'root', '', 'soliloquy')
+#1 {main}
+  thrown in /home/xorbite/soliloquybys.com/banglatest.php on line 5
+[10-Sep-2021 16:35:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/xorbite/soliloquybys.com/banglatest.php:5
+Stack trace:
+#0 /home/xorbite/soliloquybys.com/banglatest.php(5): mysqli->__construct('localhost', 'root', '', 'soliloquy')
+#1 {main}
+  thrown in /home/xorbite/soliloquybys.com/banglatest.php on line 5
+[10-Sep-2021 16:36:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/xorbite/soliloquybys.com/banglatest.php:5
+Stack trace:
+#0 /home/xorbite/soliloquybys.com/banglatest.php(5): mysqli->__construct('localhost', 'root', '', 'soliloquy')
+#1 {main}
+  thrown in /home/xorbite/soliloquybys.com/banglatest.php on line 5
+[10-Sep-2021 16:37:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/xorbite/soliloquybys.com/banglatest.php:5
+Stack trace:
+#0 /home/xorbite/soliloquybys.com/banglatest.php(5): mysqli->__construct('localhost', 'root', '', 'soliloquy')
+#1 {main}
+  thrown in /home/xorbite/soliloquybys.com/banglatest.php on line 5
