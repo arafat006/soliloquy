@@ -8,7 +8,8 @@
 	$vid_link = addslashes($_POST['vid_link']);
 	$vid_cap = addslashes($_POST['vid_cap']);
 	$type = "vid";
-	$date=date("Y-m-d h:i:sa");
+	date_default_timezone_set("UTC");
+	$date=date("Y-m-d H:i:s", time());
 	
 	//query for add to the productslider
 	$qy="insert into productslider (item_id, iov_path, captions, type, save_time) 

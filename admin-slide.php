@@ -63,13 +63,18 @@
 				// $msg = "Failed to upload image";
 			}
 			
-			//query for inserting the image details in database
-			$date=date("Y-m-d h:i:sa");
-			$qy="insert into slides (name, path, upload_date) values ('$slide_name','$target','$date')";
-            mysqli_query($conn,$qy);
+			date_default_timezone_set("UTC");
+			$date=date("Y-m-d H:i:s", time());
 			
-			//reload
-			header("Refresh:0");
+			$qy="insert into slides (name, path, upload_date) values ('$slide_name','$target','$date')";
+            
+            
+            if (mysqli_query($conn,$qy)) {
+             echo "New record created successfully";
+             header("Refresh:0");
+            } else {
+             echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+            }
         }
 		else{
 			

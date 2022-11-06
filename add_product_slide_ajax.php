@@ -26,7 +26,9 @@
 		
 		
 		
-		$date=date("Y-m-d h:i:sa");
+		date_default_timezone_set("UTC");
+		$date=date("Y-m-d H:i:s", time());
+		
 		$qr = "INSERT INTO productslider (item_id, iov_path, captions, save_time) 
 				VALUES ('$prod_id','$target','$prod_cap','$date')";
 				

@@ -73,7 +73,9 @@
 			}
 			
 			//query for inserting the image details in database
-			$date=date("Y-m-d h:i:sa");
+			date_default_timezone_set("UTC");
+			$date=date("Y-m-d H:i:s", time());
+			
 			$qy="insert into products (name, path, catagory, sub_catagory, description, upload_date, available) values ('$product_name','$target','$product_catagory','$product_sub_catagory','$product_description','$date', '1')";
             mysqli_query($conn,$qy);
 			
